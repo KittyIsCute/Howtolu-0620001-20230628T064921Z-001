@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howto露-裝備</title>
+    <link rel="stylesheet" href="./public/css/equip_detail.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <p>導覽列</p>
+    </div>
+    <div class="categories">
+        <p>商品分類</p>
+        <ul class="categoriesUl">
+            <li><a href="">寢室帳篷</a></li>
+            <li><a href="">客廳帳&天幕</a></li>
+            <li><a href="">寢室用具</a></li>
+            <li><a href="">戶外用品</a></li>
+            <li><a href="">爐具</a></li>
+            <li><a href="">保鮮保冷</a></li>
+            <li><a href="">燈具</a></li>
+            <li><a href="">影音設備</a></li>
+            <li><a href="">保暖裝備</a></li>
+            <li><a href="">常用配件</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="image">
+            <a target="_blank" href="./public/image/比利時CanvasCamp鐘型帳(2~6人).png">
+                <img src="./public/image/比利時CanvasCamp鐘型帳(2~6人).png"></a>
+        </div>
+        <div class="commodityall">
+            <div class="commodity">
+                <p>鐘型帳(2~6人)</p>
+                <p>
+                    <span>NT$</span>
+                    <span>1,800</span>
+                    <span>— 3日</span>
+                </p>
+                <ul>
+                    <li>純棉材質具有防水、透氣及抗紫外線的功能，適用於4季各種不同的氣候下使用</li>
+                    <li>建議適用人數：2人(奢華)/4人(舒適)/最多6人(睡袋)</li>
+                    <li>建議搭帳人數：1人以上</li>
+                    <li>適用場地 : 草皮區</li>
+                </ul>
+                <p class="warn">*提醒您請於預約下單後3日內完成匯款，逾時訂單將會取消並釋出商品供他人預訂。</p>
+            </div>
+            <div class="calendar">
+                <div class="title">
+                    <a href="" id="prev">←</a>
+                    <a id="calendar-title">月份</a>
+                    <a class="small" id="calendar-year">2023</a>
+                    <a href="" id="next">→</a>
+                </div>
+                <table class="body">
+                    <thead class="lightgrey body-list">
+                        <tr>
+                            <td>週一</td>
+                            <td>週二</td>
+                            <td>週三</td>
+                            <td>週四</td>
+                            <td>週五</td>
+                            <td>週六</td>
+                            <td>週日</td>
+                        </tr>
+                    </thead>
+                    <tbody class="darkgrey body-list">
+                        <tr id="days"></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="myform">
+                <form id='myform' method='POST' action='#'>
+                    <label for="">數量：</label>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='button' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                    <input type='submit' value='立即預約' class='reserve' />
+                </form>
+                <p><span>庫存量:</span><span>10個</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <p>商品資訊</p>
+        <ul>
+            <li>套裝內容 : 帳篷本體、本體營柱x1、A型門柱x1、本體營釘X13、側裙營樁X14、附調節片營繩 X14、本體攜行袋、營柱收納袋、營釘收納袋</li>
+            <li>隨附配件：營槌、防水地布(先鋪設再搭帳)、帳內地墊</li>
+            <li>面積：4.83坪</li>
+            <li>直徑：450cm</li>
+            <li>高度：274cm</li>
+            <li>門高：167cm</li>
+            <li>最大容量：6人</li>
+            <li>總重量: 36 kg</li>
+        </ul>
+    </div>
+    <div class="informationImg">
+        <p>經常一起選購商品：</p>
+        <div>
+            <div class="container">
+                <a href=""> <img src="./public/image/Barebones LED手提鐵路復古營燈(白).jpg" alt="Avatar"
+                        class="cimage">
+                    <div class="overlay">
+                        <div class="imgtext">
+                            <p>LED手提鐵路復古營燈(白)</p>
+                            <p>NT$200 — 3日</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="container">
+                <a href=""><img src="./public/image/DOD 來日天幕 TT5-631-TN.png" alt="Avatar" class="cimage">
+                    <div class="overlay">
+                        <div class="imgtext">
+                            <p>天幕</p>
+                            <p>NT$300 — 3日</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="container">
+                <a href=""><img src="./public/image/KZM KAZMI 可調式高背摺疊椅(沙色).jpg" alt="Avatar" class="cimage">
+                    <div class="overlay">
+                        <div class="imgtext">
+                            <p>可調式高背摺疊椅(沙色)</p>
+                            <p>NT$150 — 3日</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="categories_min">
+        <p>商品分類</p>
+        <ul class="categoriesUl_min">
+            <li><a href="">寢室帳篷</a></li>
+            <li><a href="">客廳帳&天幕</a></li>
+            <li><a href="">寢室用具</a></li>
+            <li><a href="">戶外用品</a></li>
+            <li><a href="">爐具</a></li>
+            <li><a href="">保鮮保冷</a></li>
+            <li><a href="">燈具</a></li>
+            <li><a href="">影音設備</a></li>
+            <li><a href="">保暖裝備</a></li>
+            <li><a href="">常用配件</a></li>
+        </ul>
+    </div>
+    <script src="./public/js/food_detail.js"></script>
+</body>
+<footer>
+    
+</footer>
+</html>

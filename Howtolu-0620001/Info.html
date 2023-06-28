@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/Info_member.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <div class="head"></div>
+    <div class="form short">
+      <ul class="info_ul">
+        <li class="info_li"><a href="./Info.html" style="text-decoration: none"><p class="info_li_first">編輯會員資料</p></a></li>
+        <li class="info_li"><a href="./Order.html" style="text-decoration: none"><p class="form">訂單查詢</p></a></li>
+        <li class="info_li">
+          <a href="" style="text-decoration: none" class="form">登出</a>
+        </li>
+      </ul>
+      <div>
+      <form action="" class="form">
+        
+          <p class="info_p_first">我的大頭照</p>
+          <img src="../public/img/Head.png" class="info_pic" />
+            <input type="file" class="info_file" />
+            <p class="info_file_limit">*請傳.jpg檔</p>
+        </div>
+
+        <div style="text-align: center" class="form">
+          <div class="info_from_div">
+            <label for="" class="info_label_word">姓 名</label>
+            <input type="text" class="info_label" />
+            <label for="" class="info_label_word">手機號碼</label>
+            <input type="tel" class="info_label" />
+          </div>
+          <div class="info_from_div">
+            <label for="" class="info_label_word">性 別 </label>
+            <select name="" id="" class="info_select">
+              <option>請選擇</option>
+              <option>男性</option>
+              <option>女性</option>
+              <option>其他</option>
+            </select>
+            <label for="" class="info_label_word">e-mail</label>
+            <input type="email" class="info_label" />
+          </div>
+          <div class="info_from_div">
+            <label for="" class="info_label_word">居住地址（選填）</label>
+            <input type="text" class="info_label_address" />
+          </div>
+        </div>
+        <div class="form">
+          <div class="info_password_div">
+            <img src="../public/img/member_icon.png" class="info_member_icon" />
+            <p class="info_pic_word">修改密碼</p>
+          </div>
+          <div class="info_password">
+            <label for="" class="info_label_word info_password_word"
+              >舊密碼</label
+            >
+            <input type="text" class="info_label" />
+          </div>
+          <div class="info_password">
+            <label for="" class="info_label_word info_password_word"
+              >設定新密碼</label
+            >
+            <input type="text" class="info_label" />
+          </div>
+          <div class="info_password">
+            <label for="" class="info_label_word info_password_word"
+              >確認新密碼</label
+            >
+            <input type="text" class="info_label" />
+          </div>
+          <br><br>
+          <div class="info_submit_div">
+            <input type="submit" value="儲存變更" class="info_submit">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

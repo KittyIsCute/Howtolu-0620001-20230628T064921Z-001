@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/Register.css" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="../public/css/Revise.css" />
+      </head>
+      <body>
+        <div class="head"></div>
+        <div class="short">
+          <div style="text-align: center">
+            <div id="small-title">修改密碼</div>
+            <hr />
+            <div class="revise_rule">
+              ***為保護您的個人資料安全，請務必修改密碼。
+            </div>
+            <form action="" method="" id="revise_login">
+              <div class="revise_first">
+                <label for="" class="revise_from_title">e-mail</label>
+                <input type="email" class="register_from_input" required/>
+              </div>
+              <br /><br />
+              <div class="revise_first">
+                <label for="" class="revise_from_title">設定密碼</label>
+                <input type="password" class="register_from_input" id="password" pattern="[\da-zA-Z]{8,16}" required/>
+                <img src="../public/img/Eye.png" id="eye" class="eye">
+              </div>
+              <br /><br />
+              <div class="revise_first">
+                <label for="" class="revise_from_title">再次確認密碼</label>
+                <input type="password" class="register_from_input" id="check" pattern="[\da-zA-Z]{8,16}" required/>
+                <img src="../public/img/Eye.png" id="eye1" class="eye">
+              </div>
+              <br />
+              <hr />
+              <div class="resive_from_send">
+                <input
+                  type="submit"
+                  value="確定送出"
+                  id="register"
+                  class="resive_go"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </body>
+    </html>
+
+    <script src="../public/js/Revise.js"></script>
+  </body>
+</html>

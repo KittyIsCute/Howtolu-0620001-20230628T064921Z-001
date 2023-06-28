@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Howto露-食材</title>
+    <link rel="stylesheet" href="./public/css/food_detail.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <p>導覽列</p>
+    </div>
+    <div class="categories_food">
+        <p>商品分類</p>
+        <ul class="categoriesUl_food">
+            <li><a href="">雙人套餐</a></li>
+            <li><a href="">賀呷套餐</a></li>
+            <li><a href="">素食套餐</a></li>
+            <li><a href="">滿漢全席</a></li>
+            <li><a href="">快樂分享餐</a></li>
+            <li><a href="">單點</a></li>
+        </ul>
+    </div>
+    <div>
+        <div class="image_food">
+            <a target="_blank" href="./public/image/比利時CanvasCamp鐘型帳(2~6人).png">
+                <img src="./public/image/比利時CanvasCamp鐘型帳(2~6人).png"></a>
+        </div>
+        <div class="commodityall_food">
+            <div class="commodity_food">
+                <p>雙人套餐</p>
+                <p>
+                    <span>NT$</span>
+                    <span>1,300</span>
+                    <span> — 1份</span>
+                </p>
+                <p>注意事項</p>
+                <ul>
+                    <li>食材皆採「低溫冷凍」宅配出貨，須注意以下特別狀況:</li>
+                    <li>收到食材請以「冷凍」方式保存，以維持生鮮產品的新鮮度。</li>
+                    <li>生鮮蔬菜類皆有「凍熟」或「凍傷」的可能，若有疑慮請斟酌考量再下訂單。</li>
+                    <li>因應環保，所以不提供餐具。</li>
+                </ul>
+                <p class="warn">*食材之背景擺設僅供參考。</p>
+            </div>
+            <!-- <div class="calendar">
+                <div class="title">
+                    <a href="" id="prev">←</a>
+                    <a id="calendar-title">月份</a>
+                    <a class="small" id="calendar-year">2023</a>
+                    <a href="" id="next">→</a>
+                </div>
+                <table class="body">
+                    <thead class="lightgrey body-list">
+                        <tr>
+                            <td>週一</td>
+                            <td>週二</td>
+                            <td>週三</td>
+                            <td>週四</td>
+                            <td>週五</td>
+                            <td>週六</td>
+                            <td>週日</td>
+                        </tr>
+                    </thead>
+                    <tbody class="darkgrey body-list">
+                        <tr id="days"></tr>
+                    </tbody>
+                </table>
+            </div> -->
+            <div class="myform_food">
+                <form id='myform_food' method='POST' action='#'>
+                    <label for="">數量：</label>
+                    <input type='button' value='-' class='qtyminus' field='quantity' />
+                    <input type='button' name='quantity' value='0' class='qty' />
+                    <input type='button' value='+' class='qtyplus' field='quantity' />
+                    <input type='submit' value='選購' class='reserve' />
+                </form>
+                <!-- <p><span>庫存量:</span><span>10個</span></p> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div class="information">
+        <p>商品資訊</p>
+        <ul>
+            <li>套裝內容 : 帳篷本體、本體營柱x1、A型門柱x1、本體營釘X13、側裙營樁X14、附調節片營繩 X14、本體攜行袋、營柱收納袋、營釘收納袋(請參考照片)</li>
+            <li>隨附配件：營槌、防水地布(先鋪設再搭帳)、帳內地墊</li>
+            <li>面積：4.83坪</li>
+            <li>直徑：450cm</li>
+            <li>高度：274cm</li>
+            <li>門高：167cm</li>
+            <li>最大容量：6人</li>
+            <li>總重量: 36 kg</li>
+        </ul>
+    </div> -->
+    <div class="informationImg_food">
+        <p>經常一起選購商品：</p>
+        <div>
+            <div class="container_food">
+                <a href=""> <img src="./public/image/Barebones LED手提鐵路復古營燈(白).jpg" alt="Avatar"
+                        class="cimage">
+                    <div class="overlay_food">
+                        <div class="imgtext_food">
+                            <p>黑胡椒牛小排</p>
+                            <p>NT$400</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="container_food">
+                <a href=""><img src="./public/image/DOD 來日天幕 TT5-631-TN.png" alt="Avatar" class="cimage">
+                    <div class="overlay_food">
+                        <div class="imgtext_food">
+                            <p>筊白筍</p>
+                            <p>NT$150 </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="container_food">
+                <a href=""><img src="./public/image/KZM KAZMI 可調式高背摺疊椅(沙色).jpg" alt="Avatar" class="cimage">
+                    <div class="overlay_food">
+                        <div class="imgtext_food">
+                            <p>枸杞絲瓜鋁盒</p>
+                            <p>NT$90</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- <br><br><br> -->
+    <div class="categories_min_food">
+        <p>商品分類</p>
+        <ul class="categoriesUl_min_food">
+            <li><a href="">雙人套餐</a></li>
+            <li><a href="">賀呷套餐</a></li>
+            <li><a href="">素食套餐</a></li>
+            <li><a href="">滿漢全席</a></li>
+            <li><a href="">快樂分享餐</a></li>
+            <li><a href="">單點</a></li>
+        </ul>
+    </div>
+    <script src="./public/js/food_detail.js"></script>
+</body>
+<footer>
+    
+</footer>
+</html>
